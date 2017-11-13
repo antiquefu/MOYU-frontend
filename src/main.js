@@ -6,7 +6,6 @@ import Vuex from 'vuex';
 import router from './router';
 import MuseUI from 'muse-ui';
 import 'muse-ui/dist/muse-ui.css';
-import libs from "@/components/libs.js";
 
 Vue.use(MuseUI);
 Vue.use(Vuex);
@@ -35,9 +34,6 @@ const store = new Vuex.Store({
       state.user = user;
     },
     setIO(state,io){
-      // console.log('set socket.io to $store');
-      // console.log(io);
-      console.log(io);
       state.sio = io.id;
     }
   }

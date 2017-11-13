@@ -9,7 +9,7 @@
 export default {
   name: 'app',
   mounted(){
-    
+
     // console.log(this.$http);
   },
 };
@@ -37,6 +37,7 @@ export default {
   /*font-family: Noto Serif;*/
   border: none;
   box-sizing: border-box;
+  outline: none;
 }
 html{
   height: 100%;
